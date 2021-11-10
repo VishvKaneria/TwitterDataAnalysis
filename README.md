@@ -1,6 +1,6 @@
 # TwitterDataAnalysis
 
-## Libraries to be downloaded before exection:
+## Libraries to be downloaded before execution:
 1. tweepy
 2. textblob
 3. matplotlib

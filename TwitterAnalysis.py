@@ -18,10 +18,10 @@ from nltk.stem import SnowballStemmer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
 
-consumer_key = "aYECxzoXDMGFvcNz39iIkmU8a"
-consumer_secret = "T5SKz3ZlrjZxbiPdzSEuDa4ijeEbWvFfIIvpbaXuQWrOtMxZm7"
-access_token = "3149444029-lXsEDHbLv9GrTvjMha3KO6VcUoWTxUdMGWyVZoo"
-access_token_secret = "9xKSQCTCxzbniqEKW41X5Tw2Zwz4HZR2PHHxqLmZbGGSp"
+consumer_key = "Your Twitter API Key"
+consumer_secret = "Your Twitter API Key Secret"
+access_token = "Your Twitter Access Token"
+access_token_secret = "Your Twitter Access Token Secret"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
